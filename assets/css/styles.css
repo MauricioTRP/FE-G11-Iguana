@@ -1,0 +1,102 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #000000;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Definición de fuentes */
+.raleway-light {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.raleway-medium {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+#hero-iguana {
+    /* vw ancho pantalla */
+    /* 100% -> ancho del padre */
+    width: 100%;
+}
+
+.desc-section {
+    padding: 4rem 6rem;
+}
+
+.desc-section div {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.desc-section img {
+    width: 80%;
+}
+
+.icons-section {
+    background-color: #1e1a13;
+    padding-top: 2rem;
+}
+
+.icons-section .wrapper {
+    text-align: center;
+    padding: 3rem;
+}
+
+.icons-section .contenedor-icono {
+    display: inline-block;
+    margin: 0 3rem;
+}
+
+.icons-section i {
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}
+
+.fotos {
+    padding: 3rem 4rem;
+}
+
+.fotos .img-container {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-container img {
+    height: 200px;
+    width: 315px;
+    padding: 3rem;
+}
